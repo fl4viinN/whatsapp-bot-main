@@ -1,0 +1,21 @@
+{
+  "name": "wpp-bot",
+  "version": "1.0.0",
+  "description": "Liber's wpp bot.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.9.0",
+    "axios": "^1.3.1",
+    "dotenv": "^16.0.3",
+    "puppeteer": "^19.5.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prisma": "^4.9.0"
+  }
+}
